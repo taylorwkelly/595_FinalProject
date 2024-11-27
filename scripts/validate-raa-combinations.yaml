@@ -1,0 +1,6 @@
+wifiManager: ["Ideal","MinstrelHt","ThompsonSampling"]
+SS: [1,2,3,4]
+standard: ["802.11n-5GHz", "802.11n-2.4GHz", "802.11ac", "802.11ax-5GHz", "802.11ax-2.4GHz","802.11ax-6GHz"]
+channelWidth: [20,40,80,160]
+guardInterval: [3200,1600,800,400]
+packetSize: [1000]
