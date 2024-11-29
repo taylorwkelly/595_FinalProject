@@ -54,6 +54,8 @@ lisToSort = myDict["ns3::ThompsonSamplingWifiManager"]
 lisToSort.sort()
 myDict["ns3::ThompsonSamplingWifiManager"] = lisToSort
 
+print(myDict)
+
 
 def extract_statistics(data, out_avg, out_std):
     tempList = []
