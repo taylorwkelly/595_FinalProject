@@ -117,13 +117,13 @@ for stand in standards:
     cara_low = []
     cara_high = []
     cara_std = []
-    extract_statistics(myDict[minstrel],mins_avg,mins_std,size)
+    extract_statistics(myDict[minstrel],mins_avg,mins_std,size, stand)
     # bound(mins_avg,mins_std,mins_high,mins_low)
 
-    extract_statistics(myDict[aarf],aarf_avg,aarf_std,size)
+    extract_statistics(myDict[aarf],aarf_avg,aarf_std,size, stand)
 
 
-    extract_statistics(myDict[cara],cara_avg,cara_std,size)
+    extract_statistics(myDict[cara],cara_avg,cara_std,size, stand)
     # bound(cara_avg,cara_std,cara_high,cara_low)
 
     plt.figure()
