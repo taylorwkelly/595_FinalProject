@@ -9,7 +9,7 @@ function ctrl_c() {
 
 ./ns3 build
 echo -n "Generating Figure 4 data ... "
-python3 scripts/generate-figure-4.py scripts/figure-4-configuration.yaml > distance_throughput.txt
+python3 scripts/generate-figure-4.py scripts/figure-4-configuration.yaml > d_t_testing.txt
 echo -n "plotting ... "
-python3 scripts/distance_testing.py distance_throughput.txt
+python3 scripts/distance_testing.py d_t_testing.txt
 echo "done"
