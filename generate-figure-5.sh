@@ -3,11 +3,11 @@
 # #Produce all plots in Figure 5 (See .eps files for output)
 ./ns3 build
 echo -n "Generating Figure 5 data and plots ... "
-./ns3 run --no-build 'figure-5.cc --standard=802.11a --mode=OfdmRate12Mbps --wifiManager=Aarf'
+./ns3 run --no-build 'figure-5.cc --standard=802.11g --mode=OfdmRate36Mbps --wifiManager=Aarf'
 gnuplot figure-5-Aarf.plt
-./ns3 run --no-build 'figure-5.cc --standard=802.11a --mode=OfdmRate12Mbps --wifiManager=Minstrel'
+./ns3 run --no-build 'figure-5.cc --standard=802.11g --mode=OfdmRate36Mbps --wifiManager=Minstrel'
 gnuplot figure-5-Minstrel.plt
-./ns3 run --no-build 'figure-5.cc --standard=802.11a --mode=OfdmRate12Mbps --wifiManager=Cara'
+./ns3 run --no-build 'figure-5.cc --standard=802.11g --mode=OfdmRate36Mbps --wifiManager=Cara'
 gnuplot figure-5-Cara.plt
 echo "done"
 
