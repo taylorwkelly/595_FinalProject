@@ -26,6 +26,16 @@ Each has a type of graph that it generates:
 ./distance_throughput.sh
 ```
 
+Specifically for generating the plots for seeing the change in MCS, there are significant changes. Due to the older wifi versions and algorithms
+used, the MCS no longer applies, and is instead replased with a specific OFDM protocol. This is to allow the usage of the previous code without
+significant overhauls, and to still display the change in throughput at a significant SNR decrease.
+To generate the plots for each algorithm, simply run:
+
+```shell
+./generate-figure-5.sh
+```
+and the .eps files can be converted into graphs.
+
 Each of the scripts generates a different graph, with the all_data script generating the data that can be used to make the graphs.
 These do take a while to run, so in order to run them once, running the all_data script, then changing the bash scripts to use it as
 input data can be substituted to get graphs.
