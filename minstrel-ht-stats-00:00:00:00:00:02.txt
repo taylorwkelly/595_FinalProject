@@ -1,0 +1,15 @@
+               best   ____________rate__________    ________statistics________    ________last_______    ______sum-of________
+ mode guard #  rate  [name   idx airtime  max_tp]  [avg(tp) avg(prob) sd(prob)]  [prob.|retry|suc|att]  [#success | #attempts]
+VHT 20   800  1   ABP    MCS0/1  160    1516  593.547         0         0        0        0   1     0    0           0           0
+VHT 20   800  1          MCS1/1  161     776  1159.57         0         0        0        0   1     0    0           0           0
+VHT 20   800  1          MCS2/1  162     529  1699.93         0         0        0        0   1     0    0           0           0
+VHT 20   800  1          MCS3/1  163     406  2216.33         0         0        0        0   1     0    0           0           0
+VHT 20   800  1          MCS4/1  164     282   3183.4         0         0        0        0   1     0    0           0           0
+VHT 20   800  1          MCS5/1  165     221   4071.7         0         0        0        0   1     0    0           0           0
+VHT 20   800  1          MCS6/1  166     200  4489.27         0         0        0        0   1     0    0           0           0
+VHT 20   800  1          MCS7/1  167     184  4890.51         0         0        0        0   1     0    0           0           0
+VHT 20   800  1          MCS8/1  168     159  5647.66         0         0        0        0   1     0    0           0           0
+
+Total packet count::    ideal 0              lookaround 0
+Average # of aggregated frames per A-MPDU: 1
+

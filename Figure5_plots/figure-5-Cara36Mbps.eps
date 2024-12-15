@@ -1,0 +1,2767 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: figure-5-Cara36Mbps.eps
+%%Creator: gnuplot 5.2 patchlevel 8
+%%CreationDate: Thu Dec  5 15:10:31 2024
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 410 302
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color true def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape false def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -46 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 410 50 lineto 410 302 lineto 50 302 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.2 (Dec 2017)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto closepath gsave fill grestore stroke} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+/Metrics {ExtendTextBox Gswidth} def
+/Lwidth {currentpoint stroke M 0 vshift R Metrics} def
+/Rwidth {currentpoint stroke M dup stringwidth pop neg vshift R Metrics} def
+/Cwidth {currentpoint stroke M dup stringwidth pop -2 div vshift R Metrics} def
+/GLwidth {currentpoint stroke M 0 vshift R {ExtendTextBox} forall} def
+/GRwidth {currentpoint stroke M dup Gwidth vshift R {ExtendTextBox} forall} def
+/GCwidth {currentpoint stroke M dup Gwidth 2 div vshift R {ExtendTextBox} forall} def
+/GLwidth2 {0 Gwidth AddGlyphWidth} def
+/GRwidth2 {Gwidth -1 mul 0 AddGlyphWidth} def
+/GCwidth2 {Gwidth 2 div dup -1 mul AddGlyphWidth} def
+/AddGlyphWidth { dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+                 dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse } def
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {Metrics pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get Gswidth pop -2 div
+     dup 0 R} {dup 6 get Gswidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (figure-5-Cara36Mbps.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.2 patchlevel 8)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Thu Dec  5 15:10:31 2024)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt Sep 2016
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { dup type /stringtype eq
+    { Boxing { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if }
+    {} ifelse} def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(Times-BoldItalic) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 7200.00 5040.00 BoxColFill} if
+1.000 UL
+LTb
+LCb setrgbcolor
+602 448 M
+63 0 V
+6282 0 R
+-63 0 V
+stroke
+518 448 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+/vshift -46 def
+1.000 UL
+LTb
+LCb setrgbcolor
+602 943 M
+63 0 V
+6282 0 R
+-63 0 V
+stroke
+518 943 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 10)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+602 1437 M
+63 0 V
+6282 0 R
+-63 0 V
+stroke
+518 1437 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 20)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+602 1932 M
+63 0 V
+6282 0 R
+-63 0 V
+stroke
+518 1932 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 30)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+602 2426 M
+63 0 V
+6282 0 R
+-63 0 V
+stroke
+518 2426 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 40)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+602 2921 M
+63 0 V
+6282 0 R
+-63 0 V
+stroke
+518 2921 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 50)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+602 3415 M
+63 0 V
+6282 0 R
+-63 0 V
+stroke
+518 3415 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 60)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+602 3910 M
+63 0 V
+6282 0 R
+-63 0 V
+stroke
+518 3910 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 70)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+602 4404 M
+63 0 V
+6282 0 R
+-63 0 V
+stroke
+518 4404 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 80)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+602 4899 M
+63 0 V
+6282 0 R
+-63 0 V
+stroke
+518 4899 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 90)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+602 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+602 308 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 20)]
+] -46.7 MCshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1448 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+1448 308 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 22)]
+] -46.7 MCshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2294 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+2294 308 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 24)]
+] -46.7 MCshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3140 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+3140 308 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 26)]
+] -46.7 MCshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3986 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+3986 308 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 28)]
+] -46.7 MCshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4832 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+4832 308 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 30)]
+] -46.7 MCshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5678 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+5678 308 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 32)]
+] -46.7 MCshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+6524 448 M
+0 63 V
+0 4388 R
+0 -63 V
+stroke
+6524 308 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 ( 34)]
+] -46.7 MCshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+602 4899 N
+602 448 L
+6345 0 V
+0 4451 V
+-6345 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+133 2673 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 (Rate \(Mb/s\))]
+] -46.7 MCshow
+grestore
+/Times-BoldItalic findfont 140 scalefont setfont
+LTb
+LCb setrgbcolor
+3774 98 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 (Time \(s\))]
+] -46.7 MCshow
+/Times-BoldItalic findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+1.000 UP
+1.000 UL
+LTb
+1.00 0.00 0.00 C
+LCb setrgbcolor
+6296 4766 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 (MCS \(corresponding PHY rate\) selected by RAA)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UP
+1.000 UL
+LTb
+1.00 0.00 0.00 C
+2718 2822 C15
+2719 2228 C15
+2727 1635 C15
+2732 1338 C15
+2736 1635 C15
+2737 1338 C15
+2740 1635 C15
+2741 1338 C15
+2744 1635 C15
+2745 1338 C15
+2748 1635 C15
+2749 1338 C15
+2753 1635 C15
+2754 1338 C15
+2757 1635 C15
+2758 1338 C15
+2761 1635 C15
+2762 1338 C15
+2767 1635 C15
+2769 1338 C15
+2772 1635 C15
+2773 1338 C15
+2776 1635 C15
+2777 1338 C15
+2780 1635 C15
+2782 1338 C15
+2785 1635 C15
+2786 1338 C15
+2789 1635 C15
+2790 1338 C15
+2794 1635 C15
+2795 1338 C15
+2798 1635 C15
+2799 1338 C15
+2802 1635 C15
+2803 1338 C15
+2806 1635 C15
+2807 1338 C15
+2812 1635 C15
+2814 1338 C15
+2817 1635 C15
+2818 1338 C15
+2821 1635 C15
+2822 1338 C15
+2825 1635 C15
+2826 1338 C15
+2830 1635 C15
+2831 1338 C15
+2834 1635 C15
+2834 1338 C15
+2838 1635 C15
+2839 1338 C15
+2842 1635 C15
+2843 1338 C15
+2846 1635 C15
+2848 1338 C15
+2851 1635 C15
+2852 1338 C15
+2855 1635 C15
+2856 1338 C15
+2859 1635 C15
+2860 1338 C15
+2863 1635 C15
+2864 1338 C15
+2867 1635 C15
+2868 1338 C15
+2872 1635 C15
+2873 1338 C15
+2878 1635 C15
+2879 1338 C15
+2882 1635 C15
+2883 1338 C15
+2887 1635 C15
+2888 1338 C15
+2891 1635 C15
+2892 1338 C15
+2895 1635 C15
+2896 1338 C15
+2899 1635 C15
+2900 1338 C15
+2904 1635 C15
+2905 1338 C15
+2908 1635 C15
+2909 1338 C15
+2912 1635 C15
+2913 1338 C15
+2917 1635 C15
+2917 1338 C15
+2921 1635 C15
+2922 1338 C15
+2925 1635 C15
+2926 1338 C15
+2929 1635 C15
+2930 1338 C15
+2933 1635 C15
+2934 1338 C15
+2937 1635 C15
+2938 1338 C15
+2942 1635 C15
+2943 1338 C15
+2946 1635 C15
+2947 1338 C15
+2950 1635 C15
+2951 1338 C15
+2956 1635 C15
+2957 1338 C15
+2960 1635 C15
+2961 1338 C15
+2965 1635 C15
+2966 1338 C15
+2969 1635 C15
+2970 1338 C15
+2973 1635 C15
+2974 1338 C15
+2977 1635 C15
+2979 1338 C15
+2984 1635 C15
+2985 1338 C15
+2988 1635 C15
+2989 1338 C15
+2993 1635 C15
+2994 1338 C15
+2997 1635 C15
+2998 1338 C15
+3001 1635 C15
+3002 1338 C15
+3005 1635 C15
+3006 1338 C15
+3009 1635 C15
+3011 1338 C15
+3014 1635 C15
+3015 1338 C15
+3018 1635 C15
+3019 1338 C15
+3023 1635 C15
+3024 1338 C15
+3027 1635 C15
+3028 1338 C15
+3031 1635 C15
+3032 1338 C15
+3035 1635 C15
+3036 1338 C15
+3039 1635 C15
+3040 1338 C15
+3044 1635 C15
+3045 1338 C15
+3048 1635 C15
+3049 1338 C15
+3052 1635 C15
+3054 1338 C15
+3057 1635 C15
+3058 1338 C15
+3061 1635 C15
+3062 1338 C15
+3066 1635 C15
+3067 1338 C15
+3070 1635 C15
+3071 1338 C15
+3074 1635 C15
+3076 1338 C15
+3079 1635 C15
+3080 1338 C15
+3083 1635 C15
+3084 1338 C15
+3088 1635 C15
+3089 1338 C15
+3092 1635 C15
+3093 1338 C15
+3096 1635 C15
+3097 1338 C15
+3100 1635 C15
+3101 1338 C15
+3104 1635 C15
+3106 1338 C15
+3109 1635 C15
+3110 1338 C15
+3113 1635 C15
+3114 1338 C15
+3117 1635 C15
+3118 1338 C15
+3123 1635 C15
+3125 1338 C15
+3128 1635 C15
+3129 1338 C15
+3132 1635 C15
+3133 1338 C15
+3136 1635 C15
+3137 1338 C15
+3140 1635 C15
+3141 1338 C15
+3147 1635 C15
+3148 1338 C15
+3151 1635 C15
+3152 1338 C15
+3155 1635 C15
+3157 1338 C15
+3162 1635 C15
+3163 1338 C15
+3166 1635 C15
+3168 1338 C15
+3171 1635 C15
+3172 1338 C15
+3177 1635 C15
+3178 1338 C15
+3181 1635 C15
+3182 1338 C15
+3188 1635 C15
+3189 1338 C15
+3192 1635 C15
+3193 1338 C15
+3197 1635 C15
+3198 1338 C15
+3201 1635 C15
+3202 1338 C15
+3205 1635 C15
+3206 1338 C15
+3209 1635 C15
+3210 1338 C15
+3214 1635 C15
+3215 1338 C15
+3218 1635 C15
+3219 1338 C15
+3222 1635 C15
+3223 1338 C15
+3226 1635 C15
+3228 1338 C15
+3231 1635 C15
+3232 1338 C15
+3236 1635 C15
+3237 1338 C15
+3240 1635 C15
+3241 1338 C15
+3244 1635 C15
+3246 1338 C15
+3249 1635 C15
+3250 1338 C15
+3253 1635 C15
+3254 1338 C15
+3257 1635 C15
+3258 1338 C15
+3262 1635 C15
+3263 1338 C15
+3266 1635 C15
+3267 1338 C15
+3270 1635 C15
+3271 1338 C15
+3275 1635 C15
+3276 1338 C15
+3279 1635 C15
+3280 1338 C15
+3283 1635 C15
+3285 1338 C15
+3288 1635 C15
+3289 1338 C15
+3292 1635 C15
+3293 1338 C15
+3296 1635 C15
+3297 1338 C15
+3302 1635 C15
+3303 1338 C15
+3306 1635 C15
+3307 1338 C15
+3310 1635 C15
+3311 1338 C15
+3314 1635 C15
+3315 1338 C15
+3318 1635 C15
+3319 1338 C15
+3322 1635 C15
+3323 1338 C15
+3326 1635 C15
+3328 1338 C15
+3331 1635 C15
+3332 1338 C15
+3335 1635 C15
+3336 1338 C15
+3341 1635 C15
+3342 1338 C15
+3345 1635 C15
+3346 1338 C15
+3349 1635 C15
+3350 1338 C15
+3353 1635 C15
+3354 1338 C15
+3357 1635 C15
+3359 1338 C15
+3362 1635 C15
+3363 1338 C15
+3366 1635 C15
+3367 1338 C15
+3370 1635 C15
+3371 1338 C15
+3374 1635 C15
+3375 1338 C15
+3378 1635 C15
+3379 1338 C15
+3382 1635 C15
+3383 1338 C15
+3386 1635 C15
+3388 1338 C15
+3391 1635 C15
+3392 1338 C15
+3395 1635 C15
+3396 1338 C15
+3399 1635 C15
+3400 1338 C15
+3403 1635 C15
+3404 1338 C15
+3407 1635 C15
+3409 1338 C15
+3412 1635 C15
+3413 1338 C15
+3416 1635 C15
+3418 1338 C15
+3421 1635 C15
+3422 1338 C15
+3426 1635 C15
+3427 1338 C15
+3430 1635 C15
+3431 1338 C15
+3434 1635 C15
+3435 1338 C15
+3438 1635 C15
+3439 1338 C15
+3442 1635 C15
+3443 1338 C15
+3446 1635 C15
+3447 1338 C15
+3450 1635 C15
+3451 1338 C15
+3454 1635 C15
+3455 1338 C15
+3459 1635 C15
+3460 1338 C15
+3463 1635 C15
+3464 1338 C15
+3468 1635 C15
+3469 1338 C15
+3472 1635 C15
+3473 1338 C15
+3476 1635 C15
+3478 1338 C15
+3481 1635 C15
+3482 1338 C15
+3485 1635 C15
+3486 1338 C15
+3489 1635 C15
+3490 1338 C15
+3494 1635 C15
+3496 1338 C15
+3499 1635 C15
+3500 1338 C15
+3503 1635 C15
+3505 1338 C15
+3508 1635 C15
+3509 1338 C15
+3512 1635 C15
+3514 1338 C15
+3517 1635 C15
+3518 1338 C15
+3521 1635 C15
+3522 1338 C15
+3525 1635 C15
+3526 1338 C15
+3529 1635 C15
+3531 1338 C15
+3534 1635 C15
+3534 1338 C15
+3538 1635 C15
+3539 1338 C15
+3542 1635 C15
+3543 1338 C15
+3548 1635 C15
+3549 1338 C15
+3552 1635 C15
+3553 1338 C15
+3557 1635 C15
+3558 1338 C15
+3561 1635 C15
+3562 1338 C15
+3565 1635 C15
+3566 1338 C15
+3570 1635 C15
+3571 1338 C15
+3574 1635 C15
+3575 1338 C15
+3578 1635 C15
+3580 1338 C15
+3583 1635 C15
+3584 1338 C15
+3587 1635 C15
+3588 1338 C15
+3591 1635 C15
+3593 1338 C15
+3598 1635 C15
+3599 1338 C15
+3602 1635 C15
+3603 1338 C15
+3606 1635 C15
+3607 1338 C15
+3610 1635 C15
+3611 1338 C15
+3614 1635 C15
+3616 1338 C15
+3621 1635 C15
+3622 1338 C15
+3626 1635 C15
+3626 1338 C15
+3629 1635 C15
+3630 1338 C15
+3633 1635 C15
+3635 1338 C15
+3638 1635 C15
+3639 1338 C15
+3642 1635 C15
+3643 1338 C15
+3647 1635 C15
+3648 1338 C15
+3651 1635 C15
+3652 1338 C15
+3655 1635 C15
+3656 1338 C15
+3660 1635 C15
+3661 1338 C15
+3664 1635 C15
+3665 1338 C15
+3669 1635 C15
+3670 1338 C15
+3673 1635 C15
+3674 1338 C15
+3677 1635 C15
+3678 1338 C15
+3681 1635 C15
+3682 1338 C15
+3685 1635 C15
+3686 1338 C15
+3690 1635 C15
+3691 1338 C15
+3694 1635 C15
+3695 1338 C15
+3700 1635 C15
+3701 1338 C15
+3704 1635 C15
+3705 1338 C15
+3708 1635 C15
+3709 1338 C15
+3712 1635 C15
+3713 1338 C15
+3716 1635 C15
+3717 1338 C15
+3720 1635 C15
+3721 1338 C15
+3726 1635 C15
+3727 1338 C15
+3732 1635 C15
+3733 1338 C15
+3736 1635 C15
+3737 1338 C15
+3740 1635 C15
+3741 1338 C15
+3744 1635 C15
+3746 1338 C15
+3751 1635 C15
+3752 1338 C15
+3755 1635 C15
+3756 1338 C15
+3759 1635 C15
+3760 1338 C15
+3763 1635 C15
+3764 1338 C15
+3769 1635 C15
+3770 1338 C15
+3773 1635 C15
+3774 1338 C15
+3777 1635 C15
+3779 1338 C15
+3782 1635 C15
+3783 1338 C15
+3786 1635 C15
+3787 1338 C15
+3790 1635 C15
+3791 1338 C15
+3794 1635 C15
+3795 1338 C15
+3799 1635 C15
+3800 1338 C15
+3804 1635 C15
+3805 1338 C15
+3808 1635 C15
+3809 1338 C15
+3813 1635 C15
+3814 1338 C15
+3817 1635 C15
+3818 1338 C15
+3821 1635 C15
+3823 1338 C15
+3826 1635 C15
+3827 1338 C15
+3831 1635 C15
+3833 1338 C15
+3836 1635 C15
+3837 1338 C15
+3840 1635 C15
+3841 1338 C15
+3844 1635 C15
+3845 1338 C15
+3848 1635 C15
+3850 1338 C15
+3853 1635 C15
+3854 1338 C15
+3857 1635 C15
+3858 1338 C15
+3861 1635 C15
+3862 1338 C15
+3867 1635 C15
+3868 1338 C15
+3872 1635 C15
+3873 1338 C15
+3876 1635 C15
+3877 1338 C15
+3880 1635 C15
+3881 1338 C15
+3884 1635 C15
+3885 1338 C15
+3889 1635 C15
+3889 1338 C15
+3893 1635 C15
+3894 1338 C15
+3897 1635 C15
+3898 1338 C15
+3901 1635 C15
+3902 1338 C15
+3906 1635 C15
+3907 1338 C15
+3910 1635 C15
+3912 1338 C15
+3915 1635 C15
+3916 1338 C15
+3919 1635 C15
+3920 1338 C15
+3923 1635 C15
+3924 1338 C15
+3927 1635 C15
+3928 1338 C15
+3931 1635 C15
+3932 1338 C15
+3935 1635 C15
+3936 1338 C15
+3940 1635 C15
+3941 1338 C15
+3944 1635 C15
+3945 1338 C15
+3948 1635 C15
+3950 1338 C15
+3955 1635 C15
+3956 1338 C15
+3959 1635 C15
+3960 1338 C15
+3964 1635 C15
+3965 1338 C15
+3971 1635 C15
+3972 1338 C15
+3976 1635 C15
+3977 1338 C15
+3982 1635 C15
+3983 1338 C15
+3987 1635 C15
+3988 1338 C15
+3991 1635 C15
+3993 1338 C15
+3997 1635 C15
+3998 1338 C15
+4001 1635 C15
+4002 1338 C15
+4007 1635 C15
+4008 1338 C15
+4012 1635 C15
+4013 1338 C15
+4016 1635 C15
+4017 1338 C15
+4020 1635 C15
+4021 1338 C15
+4024 1635 C15
+4026 1338 C15
+4029 1635 C15
+4030 1338 C15
+4033 1635 C15
+4034 1338 C15
+4037 1635 C15
+4039 1338 C15
+4043 1635 C15
+4044 1338 C15
+4047 1635 C15
+4048 1338 C15
+4052 1635 C15
+4053 1338 C15
+4056 1635 C15
+4057 1338 C15
+4060 1635 C15
+4062 1338 C15
+4065 1635 C15
+4066 1338 C15
+4071 1635 C15
+4072 1338 C15
+4077 1635 C15
+4079 1338 C15
+4082 1635 C15
+4083 1338 C15
+4086 1635 C15
+4087 1338 C15
+4091 1635 C15
+4092 1338 C15
+4095 1635 C15
+4096 1338 C15
+4099 1635 C15
+4100 1338 C15
+4104 1635 C15
+4105 1338 C15
+4108 1635 C15
+4109 1338 C15
+4112 1635 C15
+4113 1338 C15
+4116 1635 C15
+4117 1338 C15
+4121 1635 C15
+4122 1338 C15
+4127 1635 C15
+4128 1338 C15
+4131 1635 C15
+4132 1338 C15
+4135 1635 C15
+4136 1338 C15
+4139 1635 C15
+4140 1338 C15
+4144 1635 C15
+4145 1338 C15
+4148 1635 C15
+4149 1338 C15
+4152 1635 C15
+4153 1338 C15
+4156 1635 C15
+4157 1338 C15
+4160 1635 C15
+4161 1338 C15
+4165 1635 C15
+4166 1338 C15
+4169 1635 C15
+4170 1338 C15
+4174 1635 C15
+4175 1338 C15
+4178 1635 C15
+4179 1338 C15
+4182 1635 C15
+4183 1338 C15
+4186 1635 C15
+4187 1338 C15
+4190 1635 C15
+4191 1338 C15
+4195 1635 C15
+4196 1338 C15
+4199 1635 C15
+4200 1338 C15
+4203 1635 C15
+4204 1338 C15
+4207 1635 C15
+4208 1338 C15
+4211 1635 C15
+4212 1338 C15
+4215 1635 C15
+4217 1338 C15
+4221 1635 C15
+4222 1338 C15
+4225 1635 C15
+4226 1338 C15
+4229 1635 C15
+4230 1338 C15
+4233 1635 C15
+4235 1338 C15
+4238 1635 C15
+4239 1338 C15
+4242 1635 C15
+4243 1338 C15
+4246 1635 C15
+4247 1338 C15
+4251 1635 C15
+4252 1338 C15
+4255 1635 C15
+4256 1338 C15
+4259 1635 C15
+4261 1338 C15
+4264 1635 C15
+4265 1338 C15
+4268 1635 C15
+4269 1338 C15
+4272 1635 C15
+4273 1338 C15
+4277 1635 C15
+4278 1338 C15
+4281 1635 C15
+4282 1338 C15
+4285 1635 C15
+4286 1338 C15
+4290 1635 C15
+4291 1338 C15
+4296 1635 C15
+4297 1338 C15
+4300 1635 C15
+4301 1338 C15
+4305 1635 C15
+4306 1338 C15
+4311 1635 C15
+4312 1338 C15
+4315 1635 C15
+4316 1338 C15
+4320 1635 C15
+4321 1338 C15
+4324 1635 C15
+4325 1338 C15
+4328 1635 C15
+4329 1338 C15
+4332 1635 C15
+4333 1338 C15
+4337 1635 C15
+4338 1338 C15
+4341 1635 C15
+4342 1338 C15
+4345 1635 C15
+4346 1338 C15
+4350 1635 C15
+4351 1338 C15
+4354 1635 C15
+4355 1338 C15
+4358 1635 C15
+4359 1338 C15
+4363 1635 C15
+4364 1338 C15
+4367 1635 C15
+4368 1338 C15
+4371 1635 C15
+4372 1338 C15
+4375 1635 C15
+4376 1338 C15
+4379 1635 C15
+4380 1338 C15
+4384 1635 C15
+4385 1338 C15
+4388 1635 C15
+4389 1338 C15
+4392 1635 C15
+4393 1338 C15
+4397 1635 C15
+4398 1338 C15
+4401 1635 C15
+4402 1338 C15
+4405 1635 C15
+4406 1338 C15
+4411 1635 C15
+4412 1338 C15
+4416 1635 C15
+4416 1338 C15
+4420 1635 C15
+4421 1338 C15
+4424 1635 C15
+4425 1338 C15
+4428 1635 C15
+4429 1338 C15
+4432 1635 C15
+4434 1338 C15
+4438 1635 C15
+4439 1338 C15
+4442 1635 C15
+4443 1338 C15
+4446 1635 C15
+4447 1338 C15
+4451 1635 C15
+4452 1338 C15
+4455 1635 C15
+4456 1338 C15
+4459 1635 C15
+4460 1338 C15
+4463 1635 C15
+4464 1338 C15
+4467 1635 C15
+4468 1338 C15
+4471 1635 C15
+4472 1338 C15
+4475 1635 C15
+4476 1338 C15
+4479 1635 C15
+4480 1338 C15
+4484 1635 C15
+4484 1338 C15
+4488 1635 C15
+4489 1338 C15
+4492 1635 C15
+4493 1338 C15
+4496 1635 C15
+4497 1338 C15
+4500 1635 C15
+4501 1338 C15
+4504 1635 C15
+4506 1338 C15
+4509 1635 C15
+4510 1338 C15
+4513 1635 C15
+4514 1338 C15
+4517 1635 C15
+4519 1338 C15
+4522 1635 C15
+4523 1338 C15
+4526 1635 C15
+4528 1338 C15
+4531 1635 C15
+4532 1338 C15
+4535 1635 C15
+4536 1338 C15
+4539 1635 C15
+4541 1338 C15
+4544 1635 C15
+4545 1338 C15
+4548 1635 C15
+4549 1338 C15
+4553 1635 C15
+4554 1338 C15
+4557 1635 C15
+4558 1338 C15
+4561 1635 C15
+4563 1338 C15
+4566 1635 C15
+4567 1338 C15
+4571 1635 C15
+4571 1338 C15
+4574 1635 C15
+4575 1338 C15
+4578 1635 C15
+4580 1338 C15
+4583 1635 C15
+4584 1338 C15
+4589 1635 C15
+4590 1338 C15
+4595 1635 C15
+4596 1338 C15
+4599 1635 C15
+4600 1338 C15
+4603 1635 C15
+4604 1338 C15
+4607 1635 C15
+4608 1338 C15
+4611 1635 C15
+4612 1338 C15
+4617 1635 C15
+4619 1338 C15
+4622 1635 C15
+4623 1338 C15
+4626 1635 C15
+4627 1338 C15
+4630 1635 C15
+4632 1338 C15
+4635 1635 C15
+4636 1338 C15
+4639 1635 C15
+4640 1338 C15
+4644 1635 C15
+4646 1338 C15
+4649 1635 C15
+4650 1338 C15
+4653 1635 C15
+4654 1338 C15
+4659 1635 C15
+4660 1338 C15
+4663 1635 C15
+4665 1338 C15
+4668 1635 C15
+4669 1338 C15
+4672 1635 C15
+4673 1338 C15
+4676 1635 C15
+4677 1338 C15
+4680 1635 C15
+4681 1338 C15
+4684 1635 C15
+4686 1338 C15
+4689 1635 C15
+4690 1338 C15
+4693 1635 C15
+4694 1338 C15
+4699 1635 C15
+4701 1338 C15
+4704 1635 C15
+4705 1338 C15
+4708 1635 C15
+4709 1338 C15
+4714 1635 C15
+4715 1338 C15
+4718 1635 C15
+4719 1338 C15
+4723 1635 C15
+4724 1338 C15
+4727 1635 C15
+4728 1338 C15
+4732 1635 C15
+4733 1338 C15
+4736 1635 C15
+4737 1338 C15
+4742 1635 C15
+4743 1338 C15
+4746 1635 C15
+4747 1338 C15
+4751 1635 C15
+4752 1338 C15
+4755 1635 C15
+4756 1338 C15
+4760 1635 C15
+4761 1338 C15
+4764 1635 C15
+4765 1338 C15
+4768 1635 C15
+4770 1338 C15
+4775 1635 C15
+4776 1338 C15
+4779 1635 C15
+4780 1338 C15
+4783 1635 C15
+4784 1338 C15
+4787 1635 C15
+4789 1338 C15
+4792 1635 C15
+4793 1338 C15
+4798 1635 C15
+4799 1338 C15
+4802 1635 C15
+4803 1338 C15
+4806 1635 C15
+4808 1338 C15
+4811 1635 C15
+4812 1338 C15
+4815 1635 C15
+4816 1338 C15
+4820 1635 C15
+4821 1338 C15
+4824 1635 C15
+4825 1338 C15
+4828 1635 C15
+4829 1338 C15
+4832 1635 C15
+4834 1338 C15
+4837 1635 C15
+4838 1338 C15
+4841 1635 C15
+4842 1338 C15
+4845 1635 C15
+4846 1338 C15
+4849 1635 C15
+4850 1338 C15
+4853 1635 C15
+4854 1338 C15
+4858 1635 C15
+4859 1338 C15
+4862 1635 C15
+4863 1338 C15
+4866 1635 C15
+4867 1338 C15
+4870 1635 C15
+4872 1338 C15
+4875 1635 C15
+4876 1338 C15
+4879 1635 C15
+4880 1338 C15
+4883 1635 C15
+4884 1338 C15
+4887 1635 C15
+4888 1338 C15
+4891 1635 C15
+4892 1338 C15
+4896 1635 C15
+4896 1338 C15
+4899 1635 C15
+4900 1338 C15
+4903 1635 C15
+4905 1338 C15
+4908 1635 C15
+4909 1338 C15
+4912 1635 C15
+4913 1338 C15
+4916 1635 C15
+4917 1338 C15
+4920 1635 C15
+4921 1338 C15
+4924 1635 C15
+4926 1338 C15
+4929 1635 C15
+4930 1338 C15
+4933 1635 C15
+4934 1338 C15
+4937 1635 C15
+4938 1338 C15
+4942 1635 C15
+4943 1338 C15
+4946 1635 C15
+4948 1338 C15
+4951 1635 C15
+4952 1338 C15
+4955 1635 C15
+4956 1338 C15
+4959 1635 C15
+4960 1338 C15
+4964 1635 C15
+4965 1338 C15
+4969 1635 C15
+4970 1338 C15
+4974 1635 C15
+4975 1338 C15
+4978 1635 C15
+4979 1338 C15
+4983 1635 C15
+4984 1338 C15
+4987 1635 C15
+4988 1338 C15
+4993 1635 C15
+4995 1338 C15
+4998 1635 C15
+4999 1338 C15
+5002 1635 C15
+5003 1338 C15
+5006 1635 C15
+5007 1338 C15
+5010 1635 C15
+5011 1338 C15
+5015 1635 C15
+5016 1338 C15
+5019 1635 C15
+5020 1338 C15
+5024 1635 C15
+5025 1338 C15
+5028 1635 C15
+5029 1338 C15
+5032 1635 C15
+5033 1338 C15
+5036 1635 C15
+5037 1338 C15
+5040 1635 C15
+5041 1338 C15
+5044 1635 C15
+5045 1338 C15
+5049 1635 C15
+5050 1338 C15
+5053 1635 C15
+5054 1338 C15
+5057 1635 C15
+5058 1338 C15
+5061 1635 C15
+5062 1338 C15
+5066 1635 C15
+5067 1338 C15
+5070 1635 C15
+5071 1338 C15
+5075 1635 C15
+5076 1338 C15
+5079 1635 C15
+5080 1338 C15
+5083 1635 C15
+5084 1338 C15
+5087 1635 C15
+5088 1338 C15
+5092 1635 C15
+5092 1338 C15
+5095 1635 C15
+5097 1338 C15
+5100 1635 C15
+5101 1338 C15
+5104 1635 C15
+5105 1338 C15
+5108 1635 C15
+5109 1338 C15
+5112 1635 C15
+5113 1338 C15
+5116 1635 C15
+5117 1338 C15
+5120 1635 C15
+5122 1338 C15
+5127 1635 C15
+5128 1338 C15
+5131 1635 C15
+5132 1338 C15
+5136 1635 C15
+5137 1338 C15
+5140 1635 C15
+5141 1338 C15
+5144 1635 C15
+5145 1338 C15
+5148 1635 C15
+5149 1338 C15
+5152 1635 C15
+5154 1338 C15
+5157 1635 C15
+5158 1338 C15
+5161 1635 C15
+5162 1338 C15
+5165 1635 C15
+5167 1338 C15
+5170 1635 C15
+5171 1338 C15
+5176 1635 C15
+5177 1338 C15
+5180 1635 C15
+5181 1338 C15
+5184 1635 C15
+5185 1338 C15
+5191 1635 C15
+5192 1338 C15
+5195 1635 C15
+5196 1338 C15
+5199 1635 C15
+5200 1338 C15
+5203 1635 C15
+5205 1338 C15
+5208 1635 C15
+5209 1338 C15
+5212 1635 C15
+5213 1338 C15
+5216 1635 C15
+5218 1338 C15
+5221 1635 C15
+5222 1338 C15
+5225 1635 C15
+5226 1338 C15
+5229 1635 C15
+5230 1338 C15
+5233 1635 C15
+5234 1338 C15
+5238 1635 C15
+5239 1338 C15
+5242 1635 C15
+5243 1338 C15
+5246 1635 C15
+5247 1338 C15
+5250 1635 C15
+5252 1338 C15
+5256 1635 C15
+5257 1338 C15
+5260 1635 C15
+5262 1338 C15
+5265 1635 C15
+5266 1338 C15
+5269 1635 C15
+5270 1338 C15
+5273 1635 C15
+5275 1338 C15
+5278 1635 C15
+5279 1338 C15
+5282 1635 C15
+5283 1338 C15
+5286 1635 C15
+5287 1338 C15
+5290 1635 C15
+5291 1338 C15
+5294 1635 C15
+5295 1338 C15
+5298 1635 C15
+5299 1338 C15
+5303 1635 C15
+5304 1338 C15
+5309 1635 C15
+5310 1338 C15
+5313 1635 C15
+5314 1338 C15
+5317 1635 C15
+5318 1338 C15
+5322 1635 C15
+5323 1338 C15
+5328 1635 C15
+5329 1338 C15
+5333 1635 C15
+5334 1338 C15
+5337 1635 C15
+5338 1338 C15
+5342 1635 C15
+5342 1338 C15
+5346 1635 C15
+5347 1338 C15
+5350 1635 C15
+5351 1338 C15
+5356 1635 C15
+5357 1338 C15
+5360 1635 C15
+5361 1338 C15
+5364 1635 C15
+5365 1338 C15
+5368 1635 C15
+5369 1338 C15
+5374 1635 C15
+5375 1338 C15
+5380 1635 C15
+5381 1338 C15
+5384 1635 C15
+5385 1338 C15
+5389 1635 C15
+5390 1338 C15
+5393 1635 C15
+5394 1338 C15
+5397 1635 C15
+5399 1338 C15
+5402 1635 C15
+5403 1338 C15
+5406 1635 C15
+5407 1338 C15
+5410 1635 C15
+5411 1338 C15
+5414 1635 C15
+5415 1338 C15
+5419 1635 C15
+5420 1338 C15
+5423 1635 C15
+5424 1338 C15
+5427 1635 C15
+5428 1338 C15
+5432 1635 C15
+5433 1338 C15
+5436 1635 C15
+5437 1338 C15
+5440 1635 C15
+5441 1338 C15
+5445 1635 C15
+5446 1338 C15
+5450 1635 C15
+5451 1338 C15
+5454 1635 C15
+5455 1338 C15
+5459 1635 C15
+5459 1338 C15
+5463 1635 C15
+5463 1338 C15
+5467 1635 C15
+5468 1338 C15
+5471 1635 C15
+5472 1338 C15
+5475 1635 C15
+5477 1338 C15
+5480 1635 C15
+5481 1338 C15
+5484 1635 C15
+5485 1338 C15
+5491 1635 C15
+5492 1338 C15
+5495 1635 C15
+5496 1338 C15
+5499 1635 C15
+5500 1338 C15
+5503 1635 C15
+5504 1338 C15
+5507 1635 C15
+5508 1338 C15
+5511 1635 C15
+5512 1338 C15
+5515 1635 C15
+5516 1338 C15
+5519 1635 C15
+5521 1338 C15
+5524 1635 C15
+5525 1338 C15
+5528 1635 C15
+5529 1338 C15
+5532 1635 C15
+5533 1338 C15
+5536 1635 C15
+5538 1338 C15
+5541 1635 C15
+5542 1338 C15
+5545 1635 C15
+5546 1338 C15
+5551 1635 C15
+5553 1338 C15
+5556 1635 C15
+5557 1338 C15
+5560 1635 C15
+5561 1338 C15
+5564 1635 C15
+5565 1338 C15
+5568 1635 C15
+5569 1338 C15
+5574 1635 C15
+5575 1338 C15
+5579 1635 C15
+5579 1338 C15
+5583 1635 C15
+5584 1338 C15
+5587 1635 C15
+5588 1338 C15
+5591 1635 C15
+5593 1338 C15
+5596 1635 C15
+5597 1338 C15
+5600 1635 C15
+5601 1338 C15
+5604 1635 C15
+5605 1338 C15
+5609 1635 C15
+5610 1338 C15
+5613 1635 C15
+5614 1338 C15
+5617 1635 C15
+5618 1338 C15
+5621 1635 C15
+5622 1338 C15
+5626 1635 C15
+5627 1338 C15
+5632 1635 C15
+5633 1338 C15
+5636 1635 C15
+5637 1338 C15
+5640 1635 C15
+5641 1338 C15
+5644 1635 C15
+5645 1338 C15
+5648 1635 C15
+5650 1338 C15
+5653 1635 C15
+5654 1338 C15
+5657 1635 C15
+5658 1338 C15
+5661 1635 C15
+5662 1338 C15
+5667 1635 C15
+5668 1338 C15
+5671 1635 C15
+5672 1338 C15
+5675 1635 C15
+5677 1338 C15
+5681 1635 C15
+5682 1338 C15
+5685 1635 C15
+5687 1338 C15
+5690 1635 C15
+5691 1338 C15
+5694 1635 C15
+5695 1338 C15
+5698 1635 C15
+5699 1338 C15
+5704 1635 C15
+5705 1338 C15
+5710 1635 C15
+5711 1338 C15
+5714 1635 C15
+5716 1338 C15
+5719 1635 C15
+5720 1338 C15
+5723 1635 C15
+5725 1338 C15
+5729 1635 C15
+5730 1338 C15
+5733 1635 C15
+5734 1338 C15
+5738 1635 C15
+5739 1338 C15
+5742 1635 C15
+5743 1338 C15
+5746 1635 C15
+5747 1338 C15
+5752 1635 C15
+5753 1338 C15
+5757 1635 C15
+5757 1338 C15
+5760 1635 C15
+5762 1338 C15
+5765 1635 C15
+5766 1338 C15
+5769 1635 C15
+5770 1338 C15
+5773 1635 C15
+5774 1338 C15
+5778 1635 C15
+5779 1338 C15
+5782 1635 C15
+5783 1338 C15
+5786 1635 C15
+5787 1338 C15
+5790 1635 C15
+5791 1338 C15
+5797 1635 C15
+5798 1338 C15
+5801 1635 C15
+5802 1338 C15
+5805 1635 C15
+5806 1338 C15
+5810 1635 C15
+5811 1338 C15
+5814 1635 C15
+5815 1338 C15
+5819 1635 C15
+5820 1338 C15
+5823 1635 C15
+5825 1338 C15
+5828 1635 C15
+5828 1338 C15
+5833 1635 C15
+5835 1338 C15
+5838 1635 C15
+5839 1338 C15
+5842 1635 C15
+5843 1338 C15
+5846 1635 C15
+5847 1338 C15
+5850 1635 C15
+5851 1338 C15
+5855 1635 C15
+5855 1338 C15
+5858 1635 C15
+5860 1338 C15
+5863 1635 C15
+5864 1338 C15
+5867 1635 C15
+5868 1338 C15
+5871 1635 C15
+5872 1338 C15
+5875 1635 C15
+5876 1338 C15
+5880 1635 C15
+5881 1338 C15
+5885 1635 C15
+5886 1338 C15
+5889 1635 C15
+5890 1338 C15
+5893 1635 C15
+5894 1338 C15
+5898 1635 C15
+5898 1338 C15
+5902 1635 C15
+5903 1338 C15
+5906 1635 C15
+5907 1338 C15
+5911 1635 C15
+5912 1338 C15
+5917 1635 C15
+5918 1338 C15
+5921 1635 C15
+5922 1338 C15
+5925 1635 C15
+5927 1338 C15
+5930 1635 C15
+5931 1338 C15
+5934 1635 C15
+5935 1338 C15
+5938 1635 C15
+5939 1338 C15
+5942 1635 C15
+5943 1338 C15
+5946 1635 C15
+5947 1338 C15
+5951 1635 C15
+5952 1338 C15
+5955 1635 C15
+5956 1338 C15
+5959 1635 C15
+5960 1338 C15
+5964 1635 C15
+5964 1338 C15
+5967 1635 C15
+5969 1338 C15
+5972 1635 C15
+5973 1338 C15
+5976 1635 C15
+5978 1338 C15
+5981 1635 C15
+5982 1338 C15
+5985 1635 C15
+5986 1338 C15
+5990 1635 C15
+5991 1338 C15
+5994 1635 C15
+5995 1338 C15
+5998 1635 C15
+6000 1338 C15
+6003 1635 C15
+6004 1338 C15
+6007 1635 C15
+6008 1338 C15
+6011 1635 C15
+6012 1338 C15
+6016 1635 C15
+6017 1338 C15
+6020 1635 C15
+6021 1338 C15
+6024 1635 C15
+6025 1338 C15
+6028 1635 C15
+6029 1338 C15
+6032 1635 C15
+6033 1338 C15
+6038 1635 C15
+6040 1338 C15
+6043 1635 C15
+6044 1338 C15
+6047 1635 C15
+6048 1338 C15
+6051 1635 C15
+6052 1338 C15
+6055 1635 C15
+6056 1338 C15
+6060 1635 C15
+6061 1338 C15
+6064 1635 C15
+6065 1338 C15
+6069 1635 C15
+6070 1338 C15
+6073 1635 C15
+6074 1338 C15
+6077 1635 C15
+6078 1338 C15
+6081 1635 C15
+6082 1338 C15
+6085 1635 C15
+6087 1338 C15
+6090 1635 C15
+6091 1338 C15
+6094 1635 C15
+6095 1338 C15
+6098 1635 C15
+6099 1338 C15
+6102 1635 C15
+6103 1338 C15
+6106 1635 C15
+6107 1338 C15
+6111 1635 C15
+6111 1338 C15
+6114 1635 C15
+6115 1338 C15
+6118 1635 C15
+6119 1338 C15
+6123 1635 C15
+6124 1338 C15
+6127 1635 C15
+6128 1338 C15
+6131 1635 C15
+6133 1338 C15
+6136 1635 C15
+6137 1338 C15
+6140 1635 C15
+6142 1338 C15
+6145 1635 C15
+6146 1338 C15
+6149 1635 C15
+6150 1338 C15
+6154 1041 C15
+6158 1338 C15
+6161 1635 C15
+6162 1338 C15
+6165 1635 C15
+6166 1338 C15
+6169 1635 C15
+6170 1338 C15
+6173 1635 C15
+6174 1338 C15
+6177 1635 C15
+6178 1338 C15
+6184 1635 C15
+6185 1338 C15
+6188 1635 C15
+6189 1338 C15
+6194 1635 C15
+6196 1338 C15
+6199 1635 C15
+6200 1338 C15
+6203 1635 C15
+6204 1338 C15
+6209 1635 C15
+6210 1338 C15
+6213 1635 C15
+6214 1338 C15
+6218 1635 C15
+6219 1338 C15
+6222 1635 C15
+6223 1338 C15
+6226 1635 C15
+6227 1338 C15
+6230 1635 C15
+6231 1338 C15
+6234 1635 C15
+6235 1338 C15
+6239 1635 C15
+6240 1338 C15
+6243 1635 C15
+6244 1338 C15
+6247 1635 C15
+6248 1338 C15
+6252 1635 C15
+6253 1338 C15
+6256 1635 C15
+6257 1338 C15
+6260 1635 C15
+6261 1338 C15
+6265 1635 C15
+6266 1338 C15
+6271 1635 C15
+6272 1338 C15
+6275 1635 C15
+6276 1338 C15
+6279 1635 C15
+6280 1338 C15
+6283 1635 C15
+6284 1338 C15
+6287 1635 C15
+6288 1338 C15
+6292 1635 C15
+6293 1338 C15
+6296 1635 C15
+6297 1338 C15
+6300 1635 C15
+6301 1338 C15
+6304 1635 C15
+6305 1338 C15
+6308 1635 C15
+6309 1338 C15
+6312 1635 C15
+6313 1338 C15
+6317 1635 C15
+6318 1338 C15
+6321 1635 C15
+6322 1338 C15
+6325 1635 C15
+6327 1338 C15
+6330 1635 C15
+6331 1338 C15
+6334 1635 C15
+6335 1338 C15
+6338 1635 C15
+6339 1338 C15
+6343 1635 C15
+6344 1338 C15
+6347 1635 C15
+6348 1338 C15
+6351 1635 C15
+6352 1338 C15
+6355 1635 C15
+6357 1338 C15
+6360 1635 C15
+6361 1338 C15
+6364 1635 C15
+6365 1338 C15
+6368 1635 C15
+6370 1338 C15
+6373 1635 C15
+6374 1338 C15
+6379 1635 C15
+6380 1338 C15
+6383 1635 C15
+6384 1338 C15
+6387 1635 C15
+6388 1338 C15
+6391 1635 C15
+6393 1338 C15
+6396 1635 C15
+6397 1338 C15
+6400 1635 C15
+6401 1338 C15
+6404 1635 C15
+6405 1338 C15
+6409 1635 C15
+6410 1338 C15
+6413 1635 C15
+6414 1338 C15
+6417 1635 C15
+6418 1338 C15
+6421 1635 C15
+6422 1338 C15
+6425 1635 C15
+6426 1338 C15
+6429 1635 C15
+6430 1338 C15
+6433 1635 C15
+6434 1338 C15
+6437 1635 C15
+6438 1338 C15
+6442 1635 C15
+6443 1338 C15
+6446 1635 C15
+6447 1338 C15
+6450 1635 C15
+6451 1338 C15
+6455 1635 C15
+6456 1338 C15
+6459 1635 C15
+6461 1338 C15
+6464 1635 C15
+6465 1338 C15
+6468 1635 C15
+6469 1338 C15
+6472 1635 C15
+6473 1338 C15
+6479 1635 C15
+6480 1338 C15
+6483 1635 C15
+6484 1338 C15
+6487 1635 C15
+6488 1338 C15
+6491 1635 C15
+6492 1338 C15
+6495 1635 C15
+6497 1338 C15
+6500 1635 C15
+6501 1338 C15
+6504 1635 C15
+6505 1338 C15
+6508 1635 C15
+6509 1338 C15
+6512 1635 C15
+6514 1338 C15
+6517 1635 C15
+6518 1338 C15
+6521 1635 C15
+6522 1338 C15
+6527 1635 C15
+6528 1338 C15
+6532 1635 C15
+6533 1338 C15
+6536 1635 C15
+6537 1338 C15
+6540 1635 C15
+6541 1338 C15
+6544 1635 C15
+6545 1338 C15
+6548 1635 C15
+6550 1338 C15
+6553 1635 C15
+6554 1338 C15
+6557 1635 C15
+6558 1338 C15
+6562 1635 C15
+6563 1338 C15
+6566 1635 C15
+6567 1338 C15
+6571 1635 C15
+6572 1338 C15
+6575 1635 C15
+6576 1338 C15
+6579 1635 C15
+6580 1338 C15
+6583 1635 C15
+6584 1338 C15
+6588 1635 C15
+6589 1338 C15
+6592 1635 C15
+6593 1338 C15
+6596 1635 C15
+6597 1338 C15
+6601 1635 C15
+6601 1338 C15
+6605 1635 C15
+6606 1338 C15
+6609 1635 C15
+6610 1338 C15
+6614 1635 C15
+6614 1338 C15
+6618 1635 C15
+6619 1338 C15
+6622 1635 C15
+6623 1338 C15
+6626 1635 C15
+6627 1338 C15
+6631 1635 C15
+6632 1338 C15
+6635 1635 C15
+6636 1338 C15
+6639 1635 C15
+6640 1338 C15
+6643 1635 C15
+6644 1338 C15
+6647 1635 C15
+6648 1338 C15
+6652 1635 C15
+6653 1338 C15
+6656 1635 C15
+6657 1338 C15
+6660 1635 C15
+6661 1338 C15
+6664 1635 C15
+6665 1338 C15
+6670 1635 C15
+6671 1338 C15
+6674 1635 C15
+6676 1338 C15
+6679 1635 C15
+6680 1338 C15
+6683 1635 C15
+6684 1338 C15
+6688 1635 C15
+6689 1338 C15
+6692 1635 C15
+6693 1338 C15
+6697 1635 C15
+6698 1338 C15
+6701 1635 C15
+6702 1338 C15
+6707 1635 C15
+6708 1338 C15
+6711 1635 C15
+6712 1338 C15
+6715 1635 C15
+6716 1338 C15
+6719 1635 C15
+6720 1338 C15
+6723 1635 C15
+6724 1338 C15
+6727 1635 C15
+6728 1338 C15
+6731 1635 C15
+6732 1338 C15
+6736 1635 C15
+6737 1338 C15
+6740 1635 C15
+6741 1338 C15
+6744 1635 C15
+6745 1338 C15
+6749 1635 C15
+6750 1338 C15
+6753 1635 C15
+6754 1338 C15
+6757 1635 C15
+6758 1338 C15
+6761 1635 C15
+6762 1338 C15
+6765 1635 C15
+6767 1338 C15
+6770 1635 C15
+6771 1338 C15
+6774 1635 C15
+6775 1338 C15
+6778 1635 C15
+6779 1338 C15
+6782 1635 C15
+6783 1338 C15
+6786 1635 C15
+6787 1338 C15
+6790 1635 C15
+6791 1338 C15
+6794 1635 C15
+6795 1338 C15
+6798 1635 C15
+6800 1338 C15
+6803 1635 C15
+6804 1338 C15
+6808 1635 C15
+6809 1338 C15
+6812 1635 C15
+6814 1338 C15
+6817 1635 C15
+6818 1338 C15
+6821 1635 C15
+6822 1338 C15
+6825 1635 C15
+6827 1338 C15
+6830 1635 C15
+6831 1338 C15
+6834 1635 C15
+6836 1338 C15
+6839 1635 C15
+6840 1338 C15
+6844 1635 C15
+6844 1338 C15
+6847 1635 C15
+6848 1338 C15
+6851 1635 C15
+6852 1338 C15
+6855 1635 C15
+6857 1338 C15
+6860 1635 C15
+6861 1338 C15
+6864 1635 C15
+6865 1338 C15
+6868 1635 C15
+6869 1338 C15
+6872 1635 C15
+6874 1338 C15
+6877 1635 C15
+6878 1338 C15
+6883 1635 C15
+6884 1338 C15
+6887 1635 C15
+6888 1338 C15
+6891 1635 C15
+6892 1338 C15
+6895 1635 C15
+6897 1338 C15
+6900 1635 C15
+6901 1338 C15
+6904 1635 C15
+6905 1338 C15
+6909 1635 C15
+6910 1338 C15
+6913 1635 C15
+6914 1338 C15
+6917 1635 C15
+6918 1338 C15
+6921 1635 C15
+6922 1338 C15
+6925 1635 C15
+6926 1338 C15
+6929 1635 C15
+6931 1338 C15
+6934 1635 C15
+6935 1338 C15
+6938 1635 C15
+6939 1338 C15
+6944 1635 C15
+6945 1338 C15
+6579 4766 C15
+% End plot #1
+% Begin plot #2
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UP
+% End plot #2
+% Begin plot #3
+1.000 UP
+1.000 UL
+LTb
+0.00 0.00 1.00 C
+LCb setrgbcolor
+6296 4626 M
+[ [(Times-BoldItalic) 140.0 0.0 true true 0 (Link Layer Throughput at Receiver)]
+] -46.7 MRshow
+/Times-BoldItalic findfont 140 scalefont setfont
+1.000 UP
+1.000 UL
+LTb
+0.00 0.00 1.00 C
+602 1388 C15
+814 1393 C15
+1025 1394 C15
+1237 1394 C15
+1448 1390 C15
+1660 1391 C15
+1871 1389 C15
+2083 1394 C15
+2294 1395 C15
+2506 1403 C15
+2717 820 C15
+2929 847 C15
+3140 841 C15
+3352 850 C15
+3563 845 C15
+3775 841 C15
+3986 843 C15
+4198 847 C15
+4409 848 C15
+4621 839 C15
+4832 849 C15
+5044 847 C15
+5255 847 C15
+5467 847 C15
+5678 843 C15
+5890 848 C15
+6101 851 C15
+6313 848 C15
+6524 850 C15
+6736 846 C15
+6947 847 C15
+6579 4626 C15
+% End plot #3
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+602 4899 N
+602 448 L
+6345 0 V
+0 4451 V
+-6345 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Times-BoldItalic
